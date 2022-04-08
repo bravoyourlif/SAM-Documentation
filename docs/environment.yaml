@@ -1,0 +1,28 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - conda
+  - python=3.8
+  - menuinst
+  - console_shortcut
+  - powershell_shortcut
+  - conda-env
+  - conda-build
+  - conda-verify
+  - _ipyw_jlab_nb_ext_conf
+  - anaconda
+  - anaconda-navigator==2.1.1
+  - navigator-updater
+  - notebook
+  - nb_conda_kernels
+  - jupyter_contrib_nbextensions
+  - fbprophet
+  - prophet
+  - scikit-learn
+  - theano
+  - tensorflow
+  - pydot
+  - sphinx==4.2.0
+  - nbsphinx==0.8.1
+prefix: C:\Users\bravo\anaconda3

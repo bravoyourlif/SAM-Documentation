@@ -3,12 +3,37 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Scenario Analysis Mapper Documentation's documentation!
+Scenario Analysis Mapper Documentation
 ==================================================================
 
+.. table of contents
+.. --------------------------------------------
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :hidden:
+  :caption: Quick Start
+
+  self
+
+.. toctree::
+  :maxdepth: 3
+  :hidden:
+  :caption: Scenario Analysis Mapper
+
+  TwoPartModel
+..  Showcase
+  MLC
+  CLC
+  PCP
+  Scatter
+
+.. toctree::
+  :hidden:
+  :maxdepth: 1
+  :caption: Additional Resources
+
+  GitHub Repository <https://github.com/cybergis/CyberGIS-Vis>
+  CyberGISX <https://cybergisxhub.cigi.illinois.edu/>
 
 
 
