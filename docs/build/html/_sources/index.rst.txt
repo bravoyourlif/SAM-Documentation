@@ -89,7 +89,7 @@ Fill out text here.
   :caption: Visualizations
 
   TwoPartModel
-  showcase
+..  showcase
   auto_examples/index.rst
 
 
