@@ -6,42 +6,44 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Computation times &#8212; Scenario Analysis Mapper Documentation  documentation</title>
+    <title>Customizing Parameters &#8212; Scenario Analysis Mapper Documentation  documentation</title>
     
-    <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+    <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
   
     
     <link rel="stylesheet"
-      href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+      href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
     <link rel="preload" as="font" type="font/woff2" crossorigin
-      href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+      href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
     <link rel="preload" as="font" type="font/woff2" crossorigin
-      href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+      href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
   
     
       
   
     
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=6363cedec9f48b0e5c888349adb3b134b60ae2e1" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=6363cedec9f48b0e5c888349adb3b134b60ae2e1" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery-dataframe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery-rendered-html.css" />
     
-    <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+    <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
   
-    <script src="../../_static/scripts/sphinx-book-theme.js?digest=4a2ab92203046145cabe39b99b7fdcd3c3c45e62"></script>
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=4a2ab92203046145cabe39b99b7fdcd3c3c45e62"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Two Part Model" href="TwoPartModel.html" />
+    <link rel="prev" title="Scenario Analysis Mapper (SAM) Documentation" href="index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -75,14 +77,14 @@
 <!-- Sidebar -->
 <div class="pl-4 pr-3 bd-sidebar site-navigation noprint " id="site-navigation">
     <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../../index.html">
+    <a class="navbar-brand text-wrap" href="index.html">
       
       
       
       <h1 class="site-logo" id="site-title">Scenario Analysis Mapper Documentation  documentation</h1>
       
     </a>
-</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
@@ -92,14 +94,14 @@
   Quick Start
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../index.html">
+  <a class="reference internal" href="index.html">
    Get Started
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../../parameters.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Customizing Parameters
   </a>
  </li>
@@ -111,17 +113,17 @@
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../TwoPartModel.html">
+  <a class="reference internal" href="TwoPartModel.html">
    Two Part Model
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../../showcase.html">
+  <a class="reference internal" href="showcase.html">
    Showcase Gallery
   </a>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../index.html">
+  <a class="reference internal" href="auto_examples/index.html">
    This is my Gallery
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
@@ -131,12 +133,12 @@
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="../local_module.html">
+    <a class="reference internal" href="auto_examples/local_module.html">
      Local module
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plot_7_sys_argv.html">
+    <a class="reference internal" href="auto_examples/plot_7_sys_argv.html">
      Using
      <code class="docutils literal notranslate">
       <span class="pre">
@@ -147,52 +149,52 @@
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plot_0_sin.html">
+    <a class="reference internal" href="auto_examples/plot_0_sin.html">
      Introductory example - Plotting sin
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plot_4b_provide_thumbnail.html">
+    <a class="reference internal" href="auto_examples/plot_4b_provide_thumbnail.html">
      Providing a figure for the thumbnail image
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plot_3_capture_repr.html">
+    <a class="reference internal" href="auto_examples/plot_3_capture_repr.html">
      Capturing output representations
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plot_8_animations.html">
+    <a class="reference internal" href="auto_examples/plot_8_animations.html">
      Matplotlib animation support
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plot_4_choose_thumbnail.html">
+    <a class="reference internal" href="auto_examples/plot_4_choose_thumbnail.html">
      Choosing the thumbnail figure
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plot_1_exp.html">
+    <a class="reference internal" href="auto_examples/plot_1_exp.html">
      Plotting the exponential function
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plot_2_seaborn.html">
+    <a class="reference internal" href="auto_examples/plot_2_seaborn.html">
      Seaborn example
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plot_5_unicode_everywhere.html">
+    <a class="reference internal" href="auto_examples/plot_5_unicode_everywhere.html">
      Using Unicode everywhere 🤗
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plot_6_function_identifier.html">
+    <a class="reference internal" href="auto_examples/plot_6_function_identifier.html">
      Identifying function names in a script
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="../plot_9_plotly.html">
+    <a class="reference internal" href="auto_examples/plot_9_plotly.html">
      Example with the plotly graphing library
     </a>
    </li>
@@ -296,7 +298,7 @@ title="Source repository"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../../_sources/auto_examples/no_output/sg_execution_times.rst.txt"
+        <a href="_sources/parameters.md.txt"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -307,7 +309,7 @@ title="Download source file"
 <span class="headerbtn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.rst</span>
+<span class="headerbtn__text-container">.md</span>
 </a>
 
       </li>
@@ -333,23 +335,70 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#basic-parameters">
+   Basic Parameters
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#advanced-parameters">
+   Advanced Parameters
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Computation times</h1>
+                <h1>Customizing Parameters</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#basic-parameters">
+   Basic Parameters
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#advanced-parameters">
+   Advanced Parameters
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -357,34 +406,14 @@ title="Print to PDF"
                 
               <div>
                 
-  <section id="computation-times">
-<span id="sphx-glr-auto-examples-no-output-sg-execution-times"></span><h1>Computation times<a class="headerlink" href="#computation-times" title="Permalink to this headline">¶</a></h1>
-<p><strong>00:00.125</strong> total execution time for <strong>auto_examples_no_output</strong> files:</p>
-<table class="table">
-<colgroup>
-<col style="width: 82%" />
-<col style="width: 10%" />
-<col style="width: 8%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="plot_raise.html#sphx-glr-auto-examples-no-output-plot-raise-py"><span class="std std-ref">Example that fails to execute</span></a> (<code class="docutils literal notranslate"><span class="pre">plot_raise.py</span></code>)</p></td>
-<td><p>00:00.123</p></td>
-<td><p>0.0 MB</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="plot_syntaxerror.html#sphx-glr-auto-examples-no-output-plot-syntaxerror-py"><span class="std std-ref">SyntaxError</span></a> (<code class="docutils literal notranslate"><span class="pre">plot_syntaxerror.py</span></code>)</p></td>
-<td><p>00:00.002</p></td>
-<td><p>0.0 MB</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="just_code.html#sphx-glr-auto-examples-no-output-just-code-py"><span class="std std-ref">A short Python script</span></a> (<code class="docutils literal notranslate"><span class="pre">just_code.py</span></code>)</p></td>
-<td><p>00:00.000</p></td>
-<td><p>0.0 MB</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="plot_strings.html#sphx-glr-auto-examples-no-output-plot-strings-py"><span class="std std-ref">Constrained Text output frame</span></a> (<code class="docutils literal notranslate"><span class="pre">plot_strings.py</span></code>)</p></td>
-<td><p>00:00.000</p></td>
-<td><p>0.0 MB</p></td>
-</tr>
-</tbody>
-</table>
+  <section id="customizing-parameters">
+<h1>Customizing Parameters<a class="headerlink" href="#customizing-parameters" title="Permalink to this headline">¶</a></h1>
+<section id="basic-parameters">
+<h2>Basic Parameters<a class="headerlink" href="#basic-parameters" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="advanced-parameters">
+<h2>Advanced Parameters<a class="headerlink" href="#advanced-parameters" title="Permalink to this headline">¶</a></h2>
+</section>
 </section>
 
 
@@ -395,6 +424,20 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Scenario Analysis Mapper (SAM) Documentation</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="TwoPartModel.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Two Part Model</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
             </footer>
         </div>
@@ -415,7 +458,7 @@ title="Print to PDF"
       </div>
     </div>
   
-    <script src="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+    <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
   
 
   </body>

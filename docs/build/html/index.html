@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Scenario Analysis Mapper Documentation &#8212; Scenario Analysis Mapper Documentation  documentation</title>
+    <title>Scenario Analysis Mapper (SAM) Documentation &#8212; Scenario Analysis Mapper Documentation  documentation</title>
     
     <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 <link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -42,7 +42,7 @@
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Two Part Model" href="TwoPartModel.html" />
+    <link rel="next" title="Customizing Parameters" href="parameters.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -96,13 +96,18 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Scenario Analysis Mapper Documentation
+   Get Started
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="parameters.html">
+   Customizing Parameters
   </a>
  </li>
 </ul>
 <p class="caption">
  <span class="caption-text">
-  Scenario Analysis Mapper
+  Visualizations
  </span>
 </p>
 <ul class="nav bd-sidenav">
@@ -329,23 +334,114 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#getting-started">
+   Getting Started
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data">
+   Data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#related-resources">
+   Related Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contributors">
+   Contributors
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#license">
+   License
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#funding">
+   Funding
+  </a>
+  <ul class="nav section-nav flex-column">
+  </ul>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Scenario Analysis Mapper Documentation</h1>
+                <h1>Scenario Analysis Mapper (SAM) Documentation</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#getting-started">
+   Getting Started
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data">
+   Data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#related-resources">
+   Related Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contributors">
+   Contributors
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#license">
+   License
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#funding">
+   Funding
+  </a>
+  <ul class="nav section-nav flex-column">
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -353,15 +449,55 @@ title="Print to PDF"
                 
               <div>
                 
-  <section id="scenario-analysis-mapper-documentation">
-<h1>Scenario Analysis Mapper Documentation<a class="headerlink" href="#scenario-analysis-mapper-documentation" title="Permalink to this headline">¶</a></h1>
+  <section id="scenario-analysis-mapper-sam-documentation">
+<h1>Scenario Analysis Mapper (SAM) Documentation<a class="headerlink" href="#scenario-analysis-mapper-sam-documentation" title="Permalink to this headline">¶</a></h1>
 <p>Fill out the text here.</p>
+<p>Modify the text below.</p>
+<section id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>If you do not have a CyerGISX account, create a CyberGISX account with your GitHub id at <a class="reference external" href="https://cybergisxhub.cigi.illinois.edu">https://cybergisxhub.cigi.illinois.edu</a></p>
+<p>(more text about making accounts)</p>
+<p>After you log in, go to the ‘Discovery’ tab and find the ‘CyberGIS-HIV’ project.</p>
+<p>Click on the ‘Open with CyberGISX’ button. The CyberGIS-Jupyter page would automatically start running.</p>
+<a class="reference external image-reference" href="index.html"><img alt="cybergisx_loading" src="_images/cybergisx.png" style="width: 400px;" /></a>
+<p>When the page is fully loaded, click on the first code block and run it by clicking on the ‘Run’ button or using the CTRL+ENTER key.</p>
+<a class="reference external image-reference" href="index.html"><img alt="cybergisx_loading" src="_images/cybergisx2.png" style="width: 400px;" /></a>
+<a class="reference external image-reference" href="index.html"><img alt="cybergisx_loading" src="_images/cybergisx3.png" style="width: 400px;" /></a>
+<p>After the first code block is completed, run the second code block.</p>
+<a class="reference external image-reference" href="index.html"><img alt="cybergisx_loading" src="_images/cybergisx4.png" style="width: 400px;" /></a>
+</section>
+<section id="data">
+<h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
+<p>Fill out text here.</p>
+</section>
+<section id="related-resources">
+<h2>Related Resources<a class="headerlink" href="#related-resources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://cybergisxhub.cigi.illinois.edu/">CyberGISX</a></p></li>
+<li><p><a class="reference external" href="https://leafletjs.com/">Leaflet</a></p></li>
+<li><p><a class="reference external" href="https://plot.ly/javascript/">PlotlyJS</a></p></li>
+<li><p><a class="reference external" href="https://d3js.org/">D3</a></p></li>
+<li><p><a class="reference external" href="https://github.com/spatialucr/geosnap-viz">GEOSNAP VIZ</a></p></li>
+</ul>
+</section>
+<section id="contributors">
+<h2>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline">¶</a></h2>
+<p>Fill out text here.</p>
+</section>
+<section id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h2>
+<p>This project is licensed under the Apache License 2.0 - see the <a class="reference external" href="https://github.com/cybergis/CyberGIS-Vis/blob/master/LICENSE">LICENSE</a> file for details.</p>
+</section>
+<section id="funding">
+<h2>Funding<a class="headerlink" href="#funding" title="Permalink to this headline">¶</a></h2>
+<p>Fill out text here.</p>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
 </div>
+</section>
 </section>
 
 
@@ -372,10 +508,10 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="TwoPartModel.html" title="next page">
+    <a class='right-next' id="next-link" href="parameters.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Two Part Model</p>
+        <p class="prev-next-title">Customizing Parameters</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

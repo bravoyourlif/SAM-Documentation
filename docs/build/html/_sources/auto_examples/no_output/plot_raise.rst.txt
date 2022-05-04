@@ -60,7 +60,7 @@ You will also get the python traceback of the failed code block.
  .. code-block:: none
 
 
-    <matplotlib.collections.QuadMesh object at 0x000001882948E430>
+    <matplotlib.collections.QuadMesh object at 0x00000204FA7E94F0>
 
 
 
@@ -112,7 +112,7 @@ Here is another error raising block but will not be executed
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.091 seconds)
+   **Total running time of the script:** ( 0 minutes  0.123 seconds)
 
 
 .. _sphx_glr_download_auto_examples_no_output_plot_raise.py:
