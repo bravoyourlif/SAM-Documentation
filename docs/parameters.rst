@@ -42,7 +42,7 @@ Advanced Parameters
   * - ``Name of Variables``
     - Write full name of variables to make variables names more intuitive.
 
-.. image:: images/advanced.png
+.. image:: myimages/advanced.png
     :width: 600
     :alt: advanced_parameter
     :target: parameters.html

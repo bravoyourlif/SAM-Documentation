@@ -21,26 +21,26 @@ After you log in, go to the 'Discovery' tab and find the 'CyberGIS-HIV' project.
 Click on the 'Open with CyberGISX' button. The CyberGIS-Jupyter page would automatically start running.
 
 .. image:: images/cybergisx.png
-  :width: 400
+  :width: 800
   :alt: cybergisx_loading
   :target: index.html
 
 When the page is fully loaded, click on the first code block and run it by clicking on the 'Run' button or using the CTRL+ENTER key.
 
 .. image:: images/cybergisx2.png
-  :width: 400
+  :width: 800
   :alt: cybergisx_loading
   :target: index.html
 
 .. image:: images/cybergisx3.png
-  :width: 400
+  :width: 800
   :alt: cybergisx_loading
   :target: index.html
 
 After the first code block is completed, run the second code block.
 
 .. image:: images/cybergisx4.png
-  :width: 400
+  :width: 800
   :alt: cybergisx_loading
   :target: index.html
 
