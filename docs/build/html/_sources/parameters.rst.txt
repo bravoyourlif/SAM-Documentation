@@ -4,7 +4,13 @@ Customizing Parameters
 =======================
 Basic Parameters
 =======================
-.. image:: images/cybergisx4.png
+.. image:: /images/cybergisx4.png
+  :width: 800
+  :alt: basic_parameter
+  :target: parameters.html
+
+
+.. image:: myimages/advanced.png
   :width: 800
   :alt: basic_parameter
   :target: parameters.html
@@ -70,7 +76,7 @@ Below are chart-specific parameters, for MLC, CLC, and PCP respectively.
   * - ``Exclude Outliers``
     - Exclude extreme outliers to avoid skewed results.
 
-.. image:: images/advanced2.png
+.. image:: _images/advanced2.png
     :width: 600
     :alt: advanced_parameter
     :target: paramters.html
