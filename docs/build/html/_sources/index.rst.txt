@@ -6,10 +6,7 @@
 Scenario Analysis Mapper Documentation
 ==================================================================
 
-Hello World!!!!!!!!!!!
-
-my name is chaeyeon.
-
+Fill out the text here.
 
 .. table of contents
 .. --------------------------------------------
@@ -26,11 +23,9 @@ my name is chaeyeon.
   :caption: Scenario Analysis Mapper
 
   TwoPartModel
-..  Showcase
-  MLC
-  CLC
-  PCP
-  Scatter
+  showcase
+  auto_examples/index.rst
+
 
 .. toctree::
   :hidden:
@@ -39,12 +34,3 @@ my name is chaeyeon.
 
   GitHub Repository <https://github.com/cybergis/CyberGIS-Vis>
   CyberGISX <https://cybergisxhub.cigi.illinois.edu/>
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
