@@ -42,10 +42,14 @@ Advanced Parameters
   * - ``Name of Variables``
     - Write full name of variables to make variables names more intuitive.
 
-.. image:: myimages/advanced.png
+.. image:: /myimages/advanced.PNG
     :width: 600
     :alt: advanced_parameter
     :target: parameters.html
+
+.. image:: /myimages/advanced.PNG
+    :width: 600
+    :alt: advanced_parameter
 
 Below are chart-specific parameters, for MLC, CLC, and PCP respectively.
 
