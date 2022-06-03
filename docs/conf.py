@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Scenario Analysis Mapper Documentation'
-copyright = '2022, Chaeyeon Han'
-author = 'Chaeyeon Han'
+project = 'CyberGIS-HIV'
+copyright = '2022, CyberGIS Center'
+author = 'CyberGIS Center'
 
 
 # -- General configuration ---------------------------------------------------
@@ -32,6 +32,7 @@ extensions = [
     #'sphinx_gallery.gen_gallery',
     #'sphinx_gallery.load_style',
     'myst_parser',
+    'sphinxcontrib.video',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

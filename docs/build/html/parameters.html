@@ -4,40 +4,38 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customizing Parameters &#8212; CyberGIS-HIV  documentation</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
-    <title>Customizing Parameters &#8212; Scenario Analysis Mapper Documentation  documentation</title>
     
-    <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-  
-    
-    <link rel="stylesheet"
-      href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
-    <link rel="preload" as="font" type="font/woff2" crossorigin
-      href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-    <link rel="preload" as="font" type="font/woff2" crossorigin
-      href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
-  
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
     
       
-  
+
     
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=6363cedec9f48b0e5c888349adb3b134b60ae2e1" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
     
-    <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
-  
-    <script src="_static/scripts/sphinx-book-theme.js?digest=4a2ab92203046145cabe39b99b7fdcd3c3c45e62"></script>
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js"></script>
+    <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Two Part Model" href="TwoPartModel.html" />
-    <link rel="prev" title="Scenario Analysis Mapper (SAM) Documentation" href="index.html" />
+    <link rel="next" title="Showcase Gallery" href="Showcase.html" />
+    <link rel="prev" title="CyberGIS-HIV" href="index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -46,20 +44,6 @@
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay overlay-navbar" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<!-- Checkboxes to toggle the in-page toc -->
-<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
-<label class="overlay overlay-pagetoc" for="__page-toc">
-    <div class="visually-hidden">Toggle in-page Table of Contents</div>
-</label>
-<!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
-<div class="header header-item noprint"></div>
-
     
     <div class="container-fluid" id="banner"></div>
 
@@ -68,14 +52,19 @@
     <div class="container-xl">
       <div class="row">
           
-<!-- Sidebar -->
-<div class="pl-4 pr-3 bd-sidebar site-navigation noprint " id="site-navigation">
-    <div class="navbar-brand-box">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
+    
+        <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
       
       
-      <h1 class="site-logo" id="site-title">Scenario Analysis Mapper Documentation  documentation</h1>
+      <h1 class="site-logo" id="site-title">CyberGIS-HIV  documentation</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -83,7 +72,7 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p class="caption">
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Quick Start
  </span>
@@ -100,19 +89,19 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Visualizations
+  Visualization Modules
  </span>
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="TwoPartModel.html">
-   Two Part Model
+  <a class="reference internal" href="Showcase.html">
+   Showcase Gallery
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Additional Resources
  </span>
@@ -144,130 +133,74 @@
 
 
           
-<!-- A tiny helper pixel to detect if we've scrolled -->
+<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
 <div class="sbt-scroll-pixel-helper"></div>
-<!-- Main content -->
-<div class="col py-0 content-container">
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="header-article row sticky-top noprint">
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            <div class="topbar-left">
+                
+                <label class="nav-toggle-button" for="__navigation">
+                    <div class="visually-hidden">Toggle navigation</div>
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+            </div>
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
         
-
-
-
-<div class="col py-1 d-flex header-article-main">
-    <div class="header-article__left">
-        
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
-  </span>
-
-</label>
-
-        
-    </div>
-    <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-<a href="https://github.com/bravoyourlif/SAM-Documentation"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="bottom"
-title="Source repository"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="headerbtn__text-container">repository</span>
-</a>
-
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
-  </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="_sources/parameters.rst.txt"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="headerbtn__text-container">.rst</span>
-</a>
-
-      </li>
-      
-      <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="headerbtn__text-container">.pdf</span>
-</button>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
-
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/parameters.rst.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.rst</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
-<!-- Table of contents -->
-<div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/bravoyourlif/SAM-Documentation"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
     </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#basic-parameters">
    Basic Parameters
@@ -280,11 +213,12 @@ title="Print to PDF"
  </li>
 </ul>
 
-    </nav>
-</div>
+            </nav>
+        </div>
     </div>
-    <div class="article row">
-        <div class="col pl-md-3 pl-lg-5 content-container">
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>Customizing Parameters</h1>
@@ -313,20 +247,19 @@ title="Print to PDF"
                     </div>
                 </div>
             </div>
-            <main id="main-content" role="main">
-                
+            
               <div>
                 
-  <section id="customizing-parameters">
+  <div class="section" id="customizing-parameters">
 <h1>Customizing Parameters<a class="headerlink" href="#customizing-parameters" title="Permalink to this headline">¶</a></h1>
-<section id="basic-parameters">
+<div class="section" id="basic-parameters">
 <h2>Basic Parameters<a class="headerlink" href="#basic-parameters" title="Permalink to this headline">¶</a></h2>
-<a class="reference external image-reference" href="parameters.html"><img alt="basic_parameter" src="_images/cybergisx4.png" style="width: 800px;" /></a>
-<a class="reference external image-reference" href="parameters.html"><img alt="basic_parameter" src="_images/advanced.png" style="width: 800px;" /></a>
-<p>Fill out text here.</p>
-</section>
-<section id="advanced-parameters">
+<p>The first tab has basic parameters and the second tab has advanced parameters. You can change between basic and advanced parameters by clicking the tab in the image below.</p>
+<a class="reference external image-reference" href="parameters.html"><img alt="basic_parameter" src="_images/HIV_GUI.png" style="width: 800px;" /></a>
+</div>
+<div class="section" id="advanced-parameters">
 <h2>Advanced Parameters<a class="headerlink" href="#advanced-parameters" title="Permalink to this headline">¶</a></h2>
+<a class="reference external image-reference" href="parameters.html"><img alt="advanced_parameter" src="_images/Advanced1.PNG" style="width: 800px;" /></a>
 <table class="colwidths-given table">
 <colgroup>
 <col style="width: 20%" />
@@ -341,38 +274,38 @@ title="Print to PDF"
 <tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Title</span></code></p></td>
 <td><p>Title text that would appear in the top of the result visualization file.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Subject</span></code></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Shapefile</span> <span class="pre">Path</span></code></p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Shapefile</span> <span class="pre">Path</span></code></p></td>
 <td><p>File path of shapefile that would be a base map layer to map visualization.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">CSV</span> <span class="pre">File</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">CSV</span> <span class="pre">File</span></code></p></td>
 <td><p>File path of the CSV file that you want to visualize on the maps.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Number</span> <span class="pre">of</span> <span class="pre">Maps</span></code></p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Number</span> <span class="pre">of</span> <span class="pre">Maps</span></code></p></td>
 <td><p>Number of maps to visualize in the HTML file.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Map:</span> <span class="pre">Select</span> <span class="pre">Variable</span> <span class="pre">and</span> <span class="pre">Year</span></code></p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Map:</span> <span class="pre">Select</span> <span class="pre">Variable</span> <span class="pre">and</span> <span class="pre">Year</span></code></p></td>
 <td><p>Layers you want to visualize in the maps.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Initial</span> <span class="pre">Map</span> <span class="pre">Center</span> <span class="pre">(lat,</span> <span class="pre">lon)</span></code></p></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Initial</span> <span class="pre">Map</span> <span class="pre">Center</span> <span class="pre">(lat,</span> <span class="pre">lon)</span></code></p></td>
+<td><p>Longitude and latitude coordinates of the map center.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Initial</span> <span class="pre">Map</span> <span class="pre">Zoom</span> <span class="pre">Level</span></code></p></td>
-<td></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Initial</span> <span class="pre">Map</span> <span class="pre">Zoom</span> <span class="pre">Level</span></code></p></td>
+<td><p>Set the zoom level for maps. Increasing the number will zoom-in maps.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Map</span> <span class="pre">Width</span></code></p></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Map</span> <span class="pre">Width</span></code></p></td>
+<td><p>Set the width of the map in pixels</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Name</span> <span class="pre">of</span> <span class="pre">Variables</span></code></p></td>
-<td><p>Write full name of variables to make variables names more intuitive.</p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Name</span> <span class="pre">of</span> <span class="pre">Variables</span></code></p></td>
+<td><p>Enter variable names to be visualized in the visualization.</p></td>
 </tr>
 </tbody>
 </table>
-<a class="reference external image-reference" href="parameters.html"><img alt="advanced_parameter" src="_images/advanced.PNG" style="width: 600px;" /></a>
-<a class="reference internal image-reference" href="_images/advanced.PNG"><img alt="advanced_parameter" src="_images/advanced.PNG" style="width: 600px;" /></a>
-<p>Below are chart-specific parameters, for MLC, CLC, and PCP respectively.</p>
+<p>Parameters below are specific to different chart types for Multiple Line Chart(MLC), Comparison Line Chart (CLC), and Parallel Coordinate Plot(PCP) respectively.</p>
+<a class="reference external image-reference" href="parameters.html"><img alt="advanced_parameter" src="_images/Advanced2.PNG" style="width: 800px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Multiple Line Chart(MLC)</p>
 <table class="colwidths-given table">
 <colgroup>
 <col style="width: 20%" />
@@ -384,71 +317,127 @@ title="Print to PDF"
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Number</span> <span class="pre">of</span> <span class="pre">Chart(s)</span></code></p></td>
-<td><p>For MLC, number of MLC charts. For CLC and PCP, number of lines in a chart.</p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Number</span> <span class="pre">of</span> <span class="pre">MLC(s)</span></code></p></td>
+<td><p>The number of MLC charts.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Selected</span> <span class="pre">Variables</span></code></p></td>
-<td><p>Path to the documentation, relative to the repository root (e.g. <cite>docs/</cite>). See [](customize:source-files).</p></td>
+<td><p>Names of variables to be visualized in MLC. e.g. HIV Rate,Opioid Prescriptions</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Highlight</span> <span class="pre">Method</span></code></p></td>
 <td><p>This parameter only applies to MLC. Determine which time period to highlight, and in which color in ‘start time, end time, colorcode’ format (e.g., 2019, 2026, #fdff32).</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Top</span> <span class="pre">10</span> <span class="pre">Chart</span></code></p></td>
+</tbody>
+</table>
+<p>Comparison Line Chart (CLC)</p>
+<table class="colwidths-given table">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Number</span> <span class="pre">of</span> <span class="pre">CLC(s)</span></code></p></td>
+<td><p>The number of values on the X-axis of CLC.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Selected</span> <span class="pre">Variables</span></code></p></td>
+<td><dl class="simple">
+<dt>Names of variables to be visualized in CLC.</dt><dd><p>e.g. 2012_PrEP Use, 2013_PrEP Use, 2014_PrEP Use, 2015_PrEP Use, 2016_PrEP Use, 2017_PrEP Use, 2018_PrEP Use</p>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Parallel Coordinate Plot(PCP)</p>
+<table class="colwidths-given table">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Number</span> <span class="pre">of</span> <span class="pre">PCP(s)</span></code></p></td>
+<td><p>The number of variables in the PCP chart.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Selected</span> <span class="pre">Variables</span></code></p></td>
+<td><dl class="simple">
+<dt>Names of variables to be visualized in PCP</dt><dd><p>e.g.  2012_HIV Rate, 2012_Opioid Prescriptions, 2012_% people as Food Stamp/SNAP Recipients</p>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+<p>More Options</p>
+<table class="colwidths-given table">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Top</span> <span class="pre">10</span> <span class="pre">Chart</span></code></p></td>
 <td><p>A Top 10 Chart linked with the right-side map.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">Exclude</span> <span class="pre">Outliers</span></code></p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">Exclude</span> <span class="pre">Outliers</span></code></p></td>
 <td><p>Exclude extreme outliers to avoid skewed results.</p></td>
 </tr>
 </tbody>
 </table>
-<a class="reference external image-reference" href="paramters.html"><img alt="advanced_parameter" src="_images/advanced2.png" style="width: 600px;" /></a>
-</section>
-</section>
+</div>
+</div>
 
 
               </div>
               
-            </main>
-            <footer class="footer-article noprint">
-                
-    <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
     <a class='left-prev' id="prev-link" href="index.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Scenario Analysis Mapper (SAM) Documentation</p>
+            <p class="prev-next-title">CyberGIS-HIV</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="TwoPartModel.html" title="next page">
+    <a class='right-next' id="next-link" href="Showcase.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Two Part Model</p>
+        <p class="prev-next-title">Showcase Gallery</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            </footer>
+            
         </div>
     </div>
-    <div class="footer-content row">
-        <footer class="col footer"><p>
-  
-    By Chaeyeon Han<br/>
-  
-      &copy; Copyright 2022, Chaeyeon Han.<br/>
-</p>
-        </footer>
-    </div>
+    <footer class="footer">
+  <p>
     
-</div>
+      By CyberGIS Center<br/>
+    
+        &copy; Copyright 2022, CyberGIS Center.<br/>
+  </p>
+</footer>
+</main>
 
 
       </div>
     </div>
   
-    <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
-  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
   </body>
 </html>
