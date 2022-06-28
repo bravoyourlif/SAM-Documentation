@@ -1,6 +1,7 @@
-name: base
+name: SAM_doc2
 channels:
   - defaults
+  - conda-forge 
 dependencies:
   - conda
   - python=3.8

@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Scenario Analysis Mapper Documentation'
-copyright = '2022, Chaeyeon Han'
-author = 'Chaeyeon Han'
+project = 'CyberGIS-HIV'
+copyright = '2022, CyberGIS Center'
+author = 'CyberGIS Center'
 
 
 # -- General configuration ---------------------------------------------------
@@ -28,6 +28,11 @@ author = 'Chaeyeon Han'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    #'nbsphinx',
+    #'sphinx_gallery.gen_gallery',
+    #'sphinx_gallery.load_style',
+    'myst_parser',
+    'sphinxcontrib.video',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -36,8 +41,19 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['build','**.ipynb_checkpoints']
 
+# sphinx-gallery configurations
+sphinx_gallery_conf = {
+    'examples_dirs': '../examples',
+    'gallery_dirs':'auto_examples',
+}
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -52,4 +68,4 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['build/html/_static']

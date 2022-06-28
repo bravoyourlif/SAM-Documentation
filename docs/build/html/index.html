@@ -4,39 +4,37 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberGIS-HIV &#8212; CyberGIS-HIV  documentation</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
-    <title>Scenario Analysis Mapper Documentation &#8212; Scenario Analysis Mapper Documentation  documentation</title>
     
-    <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-  
-    
-    <link rel="stylesheet"
-      href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
-    <link rel="preload" as="font" type="font/woff2" crossorigin
-      href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-    <link rel="preload" as="font" type="font/woff2" crossorigin
-      href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
-  
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
     
       
-  
+
     
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=6363cedec9f48b0e5c888349adb3b134b60ae2e1" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
     
-    <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
-  
-    <script src="_static/scripts/sphinx-book-theme.js?digest=4a2ab92203046145cabe39b99b7fdcd3c3c45e62"></script>
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js"></script>
+    <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Two Part Model" href="TwoPartModel.html" />
+    <link rel="next" title="Customizing Parameters" href="parameters.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -45,20 +43,6 @@
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay overlay-navbar" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<!-- Checkboxes to toggle the in-page toc -->
-<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
-<label class="overlay overlay-pagetoc" for="__page-toc">
-    <div class="visually-hidden">Toggle in-page Table of Contents</div>
-</label>
-<!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
-<div class="header header-item noprint"></div>
-
     
     <div class="container-fluid" id="banner"></div>
 
@@ -67,14 +51,19 @@
     <div class="container-xl">
       <div class="row">
           
-<!-- Sidebar -->
-<div class="pl-4 pr-3 bd-sidebar site-navigation noprint " id="site-navigation">
-    <div class="navbar-brand-box">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
+    
+        <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="#">
       
       
       
-      <h1 class="site-logo" id="site-title">Scenario Analysis Mapper Documentation  documentation</h1>
+      <h1 class="site-logo" id="site-title">CyberGIS-HIV  documentation</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -82,7 +71,7 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p class="caption">
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Quick Start
  </span>
@@ -90,30 +79,35 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Scenario Analysis Mapper Documentation
+   Get Started
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="parameters.html">
+   Customizing Parameters
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Scenario Analysis Mapper
+  Visualization Modules
  </span>
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="TwoPartModel.html">
-   Two Part Model
+  <a class="reference internal" href="Showcase.html">
+   Showcase Gallery
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Additional Resources
  </span>
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference external" href="https://github.com/cybergis/CyberGIS-Vis">
+  <a class="reference external" href="https://github.com/cybergis/CyberGIS-HIV">
    GitHub Repository
   </a>
  </li>
@@ -138,159 +132,127 @@
 
 
           
-<!-- A tiny helper pixel to detect if we've scrolled -->
+<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
 <div class="sbt-scroll-pixel-helper"></div>
-<!-- Main content -->
-<div class="col py-0 content-container">
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="header-article row sticky-top noprint">
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            <div class="topbar-left">
+                
+                <label class="nav-toggle-button" for="__navigation">
+                    <div class="visually-hidden">Toggle navigation</div>
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+            </div>
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
         
-
-
-
-<div class="col py-1 d-flex header-article-main">
-    <div class="header-article__left">
-        
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
-  </span>
-
-</label>
-
-        
-    </div>
-    <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-<a href="https://github.com/bravoyourlif/SAM-Documentation"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="bottom"
-title="Source repository"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="headerbtn__text-container">repository</span>
-</a>
-
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
-  </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="_sources/index.rst.txt"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="headerbtn__text-container">.rst</span>
-</a>
-
-      </li>
-      
-      <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="headerbtn__text-container">.pdf</span>
-</button>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
-
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/index.rst.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.rst</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
-<!-- Table of contents -->
-<div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/bravoyourlif/SAM-Documentation"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
     </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Scenario Analysis Mapper Documentation
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#video-tutorials">
+   Video Tutorials
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#in-docs-folder">
-     in docs folder
-    </a>
-    <ul class="nav section-nav flex-column">
-    </ul>
-   </li>
-  </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#indices-and-tables">
-   Indices and tables
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#getting-started">
+   Getting Started
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#model">
+   Model
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data">
+   Data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#related-resources">
+   Related Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contributors">
+   Contributors
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#license">
+   License
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#funding">
+   Funding
+  </a>
+  <ul class="nav section-nav flex-column">
+  </ul>
  </li>
 </ul>
 
-    </nav>
-</div>
+            </nav>
+        </div>
     </div>
-    <div class="article row">
-        <div class="col pl-md-3 pl-lg-5 content-container">
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Scenario Analysis Mapper Documentation</h1>
+                <h1>CyberGIS-HIV</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -300,24 +262,47 @@ title="Print to PDF"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Scenario Analysis Mapper Documentation
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#video-tutorials">
+   Video Tutorials
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#in-docs-folder">
-     in docs folder
-    </a>
-    <ul class="nav section-nav flex-column">
-    </ul>
-   </li>
-  </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#indices-and-tables">
-   Indices and tables
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#getting-started">
+   Getting Started
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#model">
+   Model
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data">
+   Data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#related-resources">
+   Related Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contributors">
+   Contributors
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#license">
+   License
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#funding">
+   Funding
+  </a>
+  <ul class="nav section-nav flex-column">
+  </ul>
  </li>
 </ul>
 
@@ -325,69 +310,137 @@ title="Print to PDF"
                     </div>
                 </div>
             </div>
-            <main id="main-content" role="main">
-                
+            
               <div>
                 
-  <section id="scenario-analysis-mapper-documentation">
-<h1>Scenario Analysis Mapper Documentation<a class="headerlink" href="#scenario-analysis-mapper-documentation" title="Permalink to this headline">¶</a></h1>
-<section id="in-docs-folder">
-<h2>in docs folder<a class="headerlink" href="#in-docs-folder" title="Permalink to this headline">¶</a></h2>
-<p>dfdf</p>
-<div class="toctree-wrapper compound">
+  <div class="section" id="cybergis-hiv">
+<h1>CyberGIS-HIV<a class="headerlink" href="#cybergis-hiv" title="Permalink to this headline">¶</a></h1>
+<p><strong>CyberGIS-HIV is a Web-based GIS application that visualizes and predicts spatiotemporal patterns of HIV rates in US counties. On the graphical user interface, users can run the model on the fly. As an output of the model, spatiotemporal patterns of estimated HIV rates and key HIV predictors are visualized via the interactive coordinated and multiple views. CyberGIS-HIV enables forecasting how future HIV rates change as HIV predictors (e.g., Pre-exposure prophylaxis (or PrEP) use rate or HIV test rate) change.</strong></p>
+<div class="section" id="video-tutorials">
+<h2>Video Tutorials<a class="headerlink" href="#video-tutorials" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Log into CyberGISX</p></li>
+</ol>
+
+    <video width="500" height="300" controls >
+    <source src="videos/SAM_Video1_CyberGISX.mp4" type="video/mp4">
+    Video
+    </video>
+    <ol class="arabic simple" start="2">
+<li><p>Run CyberGIS-HIV</p></li>
+</ol>
+
+    <video width="500" height="300" controls >
+    <source src="videos/SAM_Video2_BasicParam.mp4" type="video/mp4">
+    Video
+    </video>
+    <ol class="arabic simple" start="3">
+<li><p>Explore the spatial patterns.</p></li>
+</ol>
+
+    <video width="500" height="300" controls >
+    <source src="videos/SAM_Video3_MLCmaps.mp4" type="video/mp4">
+    Video
+    </video>
+    <ol class="arabic simple" start="4">
+<li><p>Explore the temporal patterns.</p></li>
+</ol>
+
+    <video width="500" height="300" controls >
+    <source src="videos/SAM_Video4_MLCchart.mp4" type="video/mp4">
+    Video
+    </video>
+    </div>
+<div class="section" id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>If you do not have a CyerGISX account, create a CyberGISX account.
+<a class="reference external" href="https://cybergisxhub.cigi.illinois.edu">https://cybergisxhub.cigi.illinois.edu</a></p>
+<p>After you log in, go to the ‘Discovery’ tab and find the ‘CyberGIS-HIV’ project.</p>
+<p>Click on the ‘Open with CyberGISX’ button. The CyberGIS-Jupyter page would automatically start running.</p>
+<a class="reference external image-reference" href="index.html"><img alt="cybergisx_loading" src="_images/cybergisx.png" style="width: 800px;" /></a>
+<p>When the page is fully loaded, click on the first code block and run it by clicking on the ‘Run’ button or using the CTRL+ENTER key.</p>
+<a class="reference external image-reference" href="index.html"><img alt="cybergisx_loading" src="_images/cybergisx2.png" style="width: 800px;" /></a>
+<p>After the first code block is completed, run the second code block.</p>
+<a class="reference external image-reference" href="index.html"><img alt="cybergisx_loading" src="_images/cybergisx4.png" style="width: 800px;" /></a>
 </div>
-<div class="toctree-wrapper compound">
+<div class="section" id="model">
+<h2>Model<a class="headerlink" href="#model" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.sciencedirect.com/science/article/abs/pii/S1877584521000356?casa_token=D-UlYtJmBb4AAAAA:9rju56ZxyV-hD4Q7TjkQla4Yr05mt80tqxRFy4oqzOdo7UagnBseBEhGHdq2dpAGLvBOSL4RVA">Click here to learn more about the model development.</a></p>
 </div>
-<div class="toctree-wrapper compound">
+<div class="section" id="data">
+<h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://su-gis.iptime.org/HIV/HIV_Data.docx">Click to see the description of data.</a> They are inputs of the model.</p>
 </div>
-</section>
-</section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="related-resources">
+<h2>Related Resources<a class="headerlink" href="#related-resources" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+<li><p><a class="reference external" href="https://cybergisxhub.cigi.illinois.edu/">CyberGISX</a></p></li>
+<li><p><a class="reference external" href="https://leafletjs.com/">Leaflet</a></p></li>
+<li><p><a class="reference external" href="https://plot.ly/javascript/">PlotlyJS</a></p></li>
+<li><p><a class="reference external" href="https://d3js.org/">D3</a></p></li>
+<li><p><a class="reference external" href="https://github.com/spatialucr/geosnap-viz">GEOSNAP VIZ</a></p></li>
 </ul>
-</section>
+</div>
+<div class="section" id="contributors">
+<h2>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline">¶</a></h2>
+<p>Su Yeon Han <sup>1</sup>, Chaeyeon Han<sup>1</sup>, Chang Liu<sup>1</sup>, Jinwoo Park<sup>1</sup>, Nattapon Jaroenchai<sup>1</sup>, Zhiyu Li<sup>1</sup>, Shaowen Wang<sup>1</sup>, Bita Fayaz Farkhad<sup>2</sup>, Man-pui Sally Chan<sup>2</sup>, Danielle Sass<sup>3</sup>, Bo Li<sup>4</sup>, Dolores Albarracin<sup>2</sup></p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>CyberGIS Center for Advanced Digital and Spatial Studies, University of Illinois at Urbana-Champaign, Urbana, Illinois</p></li>
+<li><p>University of Pennsylvania</p></li>
+<li><p>Northwestern University</p></li>
+<li><p>University of Illinois at Urbana-Champaign, Urbana, Illinois</p></li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h2>
+<p>This project is licensed under the Apache License 2.0 - see the <a class="reference external" href="https://github.com/cybergis/CyberGIS-HIV/blob/main/LICENSE">LICENSE</a> file for details.</p>
+</div>
+<div class="section" id="funding">
+<h2>Funding<a class="headerlink" href="#funding" title="Permalink to this headline">¶</a></h2>
+<p>This project is supported by NIH project# 1R01AI147487-01: Development and Validation of Regional Models of HIV Vulnerabilities and Solutions</p>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
 
 
               </div>
               
-            </main>
-            <footer class="footer-article noprint">
-                
-    <!-- Previous / next buttons -->
+            
+                <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="TwoPartModel.html" title="next page">
+    <a class='right-next' id="next-link" href="parameters.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Two Part Model</p>
+        <p class="prev-next-title">Customizing Parameters</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            </footer>
+            
         </div>
     </div>
-    <div class="footer-content row">
-        <footer class="col footer"><p>
-  
-    By Chaeyeon Han<br/>
-  
-      &copy; Copyright 2022, Chaeyeon Han.<br/>
-</p>
-        </footer>
-    </div>
+    <footer class="footer">
+  <p>
     
-</div>
+      By CyberGIS Center<br/>
+    
+        &copy; Copyright 2022, CyberGIS Center.<br/>
+  </p>
+</footer>
+</main>
 
 
       </div>
     </div>
   
-    <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
-  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
   </body>
 </html>
